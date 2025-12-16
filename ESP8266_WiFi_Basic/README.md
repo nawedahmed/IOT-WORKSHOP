@@ -30,6 +30,10 @@ The ESP8266 can scan nearby WiFi networks and display:
 
 
 
+!\[Description of image](wifi\_scan.png)
+
+
+
 ---
 
 
