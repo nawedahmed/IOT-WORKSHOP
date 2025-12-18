@@ -48,11 +48,13 @@ This is the sequence of code that we will teach.
 * `coffeeMachine_APMode.ino`
  
  In sequence from connecting to esp ->  dashboard login -> On/Off page for controlling
-
+<p align="Center">
  <img src ="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/coffeeMachine1.jpg" width="200">
  <img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/coffMachine2.jpg" width="200">
 <img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/coffMachine3.jpg" width ="200">
  <img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/coffMachine4.jpg" width="200">
+
+ </p>
  
 
  ## The end of first Day .
