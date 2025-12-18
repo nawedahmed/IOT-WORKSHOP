@@ -25,7 +25,7 @@ https://arduino.esp8266.com/stable/package_esp8266com_index.json
 * Before uploading the code click on **Tools -> Check Board either it should be (Generic Esp8266 Module) or (NodeMCU 1.0 12E Module)**
 * Always check the **Port**.
 
-* While opening **Serial Monitor** always check the baud rate according to code eithe it may should be **9600** or **115200**.
+* While opening **Serial Monitor** always check the baud rate according to code either it may should be **9600** or **115200**.
 
 ---
 
