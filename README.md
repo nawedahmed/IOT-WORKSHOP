@@ -37,31 +37,31 @@ This is the sequence of code that we will teach.
 
 ### 🔁 Flow of code to teach:
 
-## `wifi_scanning.ino`
+### `wifi_scanning.ino`
 
 
   ![Wifi scan image](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/wifi_scan.png)
 
 
-## `wifi_station_mode.ino`
+### `wifi_station_mode.ino`
 
 ![Esp connected to wifi](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/espConnectedToWifi.png)
 
-## `wifi_AP_Mode.ino`
+### `wifi_AP_Mode.ino`
 
 ![Esp providing network](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/wifi_AP.png)
 
-## `Both_STA_AP_Mode.ino`
+### `Both_STA_AP_Mode.ino`
 
 ![Both Mode LED On/Off](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/Both_Mode.png)
 
 
 
-## `welcome_code.ino`
+### `welcome_code.ino`
 
 ![Welcome text](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/welcome.png)
 
-## `coffeeMachine_APMode.ino`
+### `coffeeMachine_APMode.ino`
  
  In sequence from connecting to esp ->  dashboard login -> On/Off page for controlling
 <p align="Center">
