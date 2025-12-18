@@ -4,30 +4,55 @@ IoT workshop projects using ESP8266 WiFi module for sensor monitoring and WiFi-b
 
 ---
 
-## Arduino IDE Setup (ESP8266)
 
-After installing **Arduino IDE**:
 
-* Open **File → Preferences**
-* In **Additional Boards Manager URLs**, paste:
+## ✅ Required Libraries:
+
+### for Blynk we will add it in Day 3 so for now skip it 
+
+1. Blynk Library (v1.0.1)
+🔹 Go to Arduino IDE → Sketch → Include Library → Manage Libraries
+🔹 Search for: Blynk
+🔹 Install the one by Volodymyr Shymanskyy (NOT Blynk IoT or Blynk.Edgent – just "Blynk").
+
+2. ESP8266WiFi Library
+🔹 This comes automatically with the ESP8266 board package. You don’t need to install it separately.
+
+✅ Board Package:
+
+You must install the ESP8266 board package for Arduino.
+
+📦 How to install:
+
+1. Go to File → Preferences
+
+2. In the “Additional Board Manager URLs” field, paste this:
 
 ```text
 https://arduino.esp8266.com/stable/package_esp8266com_index.json
 ```
 
-👉 If another board link already exists, **separate it with a comma (,)** and then add this link.
+3. Then go to Tools → Board → Boards Manager
+
+4. Search: ESP8266 and install it (by ESP8266 Community)
+
+## ✅ Board Selection:
+
+After installation, go to
+Tools → Board → select "NodeMCU 1.0 (ESP-12E Module)"
+(or whatever matches your ESP8266 board like "Wemos D1 Mini")
+
+## ✅ Notes:
+
+Make sure your COM port is correctly selected in Tools → Port.
+
+Select proper baud rate (usually 115200 or 9600) under Tools → Upload Speed.
+
+Connect your board to PC via USB before uploading.
 
 ---
 
 
-# Note:- 
-
-* Before uploading the code click on **Tools -> Check Board either it should be (Generic Esp8266 Module) or (NodeMCU 1.0 12E Module)**
-* Always check the **Port**.
-
-* While opening **Serial Monitor** always check the baud rate according to code either it may should be **9600** or **115200**.
-
----
 
 ## 📅 DAY 1: ESP8266 WiFi Basics
 
