@@ -46,6 +46,12 @@ This is the sequence of code that we will teach.
 
 ![Esp providing network](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/wifi_AP.png)
 
+## `Both_STA_AP_Mode.ino`
+
+![Both Mode LED On/Off](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/wifi_AP.png)
+
+
+
 ## `welcome_code.ino`
 
 ![Welcome text]()
