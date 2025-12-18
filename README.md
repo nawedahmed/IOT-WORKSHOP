@@ -8,17 +8,19 @@ IoT workshop projects using ESP8266 WiFi module for sensor monitoring and WiFi-b
 
 ## ✅ Required Libraries:
 
-### for Blynk we will add it in Day 3 so for now skip it 
-
+### for Blynk, we will add it on ( Day 3 )  so for now skip it.
+---
 1. Blynk Library (v1.0.1)
 🔹 Go to Arduino IDE → Sketch → Include Library → Manage Libraries
 🔹 Search for: Blynk
 🔹 Install the one by Volodymyr Shymanskyy (NOT Blynk IoT or Blynk.Edgent – just "Blynk").
+---
 
-2. ESP8266WiFi Library
+
+## 2. ESP8266WiFi Library
 🔹 This comes automatically with the ESP8266 board package. You don’t need to install it separately.
 
-✅ Board Package:
+## ✅ Board Package:
 
 You must install the ESP8266 board package for Arduino.
 
@@ -44,11 +46,11 @@ Tools → Board → select "NodeMCU 1.0 (ESP-12E Module)"
 
 ## ✅ Notes:
 
-Make sure your COM port is correctly selected in Tools → Port.
+* Make sure your COM port is correctly selected in Tools → Port.
 
-Select proper baud rate (usually 115200 or 9600) under Tools → Upload Speed.
+* Select proper baud rate (usually 115200 or 9600) under Tools → Upload Speed.
 
-Connect your board to PC via USB before uploading.
+* Connect your board to PC via USB before uploading.
 
 ---
 
