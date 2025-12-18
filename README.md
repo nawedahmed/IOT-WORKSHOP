@@ -12,10 +12,13 @@ if already link there of any other board then separate it with comma (,) and the
 
 
 ```
+for DAY 1 :- 
+This is the sequence of code that we will teach:
 ESP8266_WIFI_BASIC -> folder
 # Flow of code to teach :-
 
 -`wifi_station_scanning.ino`
+![Esp8266 Scanning](ESP8266_WiFi_Basic/images/wifi_scan.png)
 -`wifi_station_mode.ino`
 -`wifi_AP_mode.ino`
 -`welcome_bystationMode.ino`
