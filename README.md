@@ -28,7 +28,10 @@ This is the sequence of code that we will teach.
 ### 🔁 Flow of code to teach:
 
 * `wifi_station_scanning.ino`
-  ![ESP8266 WiFi Scan Output](ESP8266_WIFI_BASIC/images/wifi_scan.png)
+
+
+  ESP8266_WIFI_BASIC/images/wifi_scan.png
+
 
 * `wifi_station_mode.ino`
 
