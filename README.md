@@ -32,7 +32,7 @@ This is the sequence of code that we will teach.
 
 ### 🔁 Flow of code to teach:
 
-## `wifi_station_scanning.ino`
+## `wifi_scanning.ino`
 
 
   ![Wifi scan image](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/wifi_scan.png)
@@ -42,11 +42,11 @@ This is the sequence of code that we will teach.
 
 ![Esp connected to wifi](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/espConnectedToWifi.png)
 
-## `wifi_AP_mode.ino`
+## `wifi_AP_Mode.ino`
 
 ![Esp providing network](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/wifi_AP.png)
 
-## `welcome_bystationMode.ino`
+## `welcome_code.ino`
 
 ![Welcome text]()
 
