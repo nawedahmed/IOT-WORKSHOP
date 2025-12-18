@@ -46,6 +46,15 @@ This is the sequence of code that we will teach.
 ![Welcome text]()
 
 * `coffeeMachine_APMode.ino`
+ 
+ In sequence from connecting to esp ->  dashboard login -> On/Off page for controlling
+
+ ![connecting to esp]()
+ ![IP address]()
+ ![login]()
+ ![Control Page]()
+
+ * The end of first Day .
 
 
 
