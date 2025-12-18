@@ -42,7 +42,7 @@ https://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 After installation, go to
 Tools → Board → select "NodeMCU 1.0 (ESP-12E Module)"
-(or whatever matches your ESP8266 board like "Wemos D1 Mini")
+(or Generic Esp8266 module")
 
 ## ✅ Notes:
 
