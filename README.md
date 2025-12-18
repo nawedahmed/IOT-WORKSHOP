@@ -48,13 +48,13 @@ This is the sequence of code that we will teach.
 
 ## `Both_STA_AP_Mode.ino`
 
-![Both Mode LED On/Off](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/wifi_AP.png)
+![Both Mode LED On/Off](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/Both_Mode.png)
 
 
 
 ## `welcome_code.ino`
 
-![Welcome text]()
+![Welcome text](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/welcome.png)
 
 ## `coffeeMachine_APMode.ino`
  
