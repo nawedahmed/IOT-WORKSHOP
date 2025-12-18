@@ -30,7 +30,7 @@ This is the sequence of code that we will teach.
 * `wifi_station_scanning.ino`
 
 
-  ESP8266_WIFI_BASIC/images/wifi_scan.png
+  ![Wifi scan image](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/wifi_scan.png)
 
 
 * `wifi_station_mode.ino`
