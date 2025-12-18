@@ -19,6 +19,11 @@ https://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ---
 
+* Before uploading the code click on **Tools -> Check Board either it should be (Generic Esp8266 Module) or (NodeMCU 1.0 12E Module)**
+* Always check the **Port**.
+
+
+
 ## 📅 DAY 1: ESP8266 WiFi Basics
 
 This is the sequence of code that we will teach.
