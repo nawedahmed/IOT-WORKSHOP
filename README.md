@@ -35,9 +35,15 @@ This is the sequence of code that we will teach.
 
 * `wifi_station_mode.ino`
 
+![Esp connected to wifi](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/espConnectedToWifi.png)
+
 * `wifi_AP_mode.ino`
 
+![Esp providing network](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/wifi_AP.png)
+
 * `welcome_bystationMode.ino`
+
+![Welcome text]()
 
 * `coffeeMachine_APMode.ino`
 
