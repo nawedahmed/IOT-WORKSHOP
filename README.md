@@ -49,7 +49,7 @@ This is the sequence of code that we will teach.
  
  In sequence from connecting to esp ->  dashboard login -> On/Off page for controlling
 
- ![connecting to esp](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/coffeeMachine1.jpg)
+ <img src ="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/coffeeMachine1.jpg" width="200">
  ![IP address](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/coffMachine2.jpg)
  ![login](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/coffMachine3.jpg)
  ![Control Page](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/coffMachine4.jpg)
