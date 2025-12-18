@@ -40,7 +40,7 @@ void loop() {
     // HTML content
     String html = "<!DOCTYPE html><html><head><title>IoT Workshop</title></head>"
                   "<body style='display:flex;justify-content:center;align-items:center;height:100vh;'>"
-                  "<h1><b>Welcome to IoT Workshop by Electrical Club at Pulchowk Campus</b></h1>"
+                  "<h1><b>Welcome to IoT Workshop by Electrical Club at Pulchowk Campus </b></h1>"
                   "</body></html>";
 
     // Send HTTP response
