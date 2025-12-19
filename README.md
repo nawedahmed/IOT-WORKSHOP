@@ -109,7 +109,7 @@ This is the sequence of code that we will teach.
 
 ## 🚗  DC Motor Control – ESP8266 + L298N :
 
-<img src="" width="400">
+<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%202/image/L298N.webp" width="400">
 
 
 A **DC motor** converts electrical energy into mechanical rotation.
