@@ -1,3 +1,15 @@
+/*
+
+INPUT 1  	  INPUT 2 	    DIRECTION
+LOW  (0)    LOW  (0)	    Motor Off
+HIGH (1)	  LOW  (0)	    Forward
+LOW  (0)	  HIGH (1)	    Reverse
+HIGH (1)	  HIGH (1)	    Motor Off
+
+
+*/
+
+
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 
