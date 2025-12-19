@@ -115,6 +115,15 @@ This is the sequence of code that we will teach.
 A **DC motor** converts electrical energy into mechanical rotation.
 The **L298N motor driver** allows a low-power microcontroller (ESP8266) to control a high-current motor safely.
 
+As specified in L298N H-Bridge module the motor driver has a two motor terminal block to connect DC motor. Output A+ /- and Output B+/- .
+
+The L298N H-Bridge module has facilitate with additional external input power supply source to handling handle starting current requirement for both DC motor. This three terminal block with +12V, GND, and +5V. The +12V terminal block is used to power up the motors. The +5V terminal is used to power up the L298N chip. If you supply more than 12V, you need to remove the jumper and supply 5V to the +5V terminal.
+
+- +12V: The +12V terminal is where you should connect your power supply
+- GND: power supply GND
+- +5V: provide 5V if jumper is removed. Acts as a 5V output if jumper is in place
+- Jumper: jumper in place – uses the motors power supply to power up the chip. Jumper removed: you need to provide 5V to the +5V terminal. If you supply more than 12V, you should remove the jumper
+
 **Key concepts used:**
 
 * **Direction control** → using IN1 / IN2 and IN3 / IN4 pins
