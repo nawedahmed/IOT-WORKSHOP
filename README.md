@@ -108,8 +108,10 @@ This is the sequence of code that we will teach.
 
 
 ## 🚗  DC Motor Control – ESP8266 + L298N :
-
-<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%203/image/L298N.webp" width="400">
+<p align="Center">
+<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%203/image/L298N.webp" width="500">
+<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%203/image/L298NwithChip.webp" width="500">
+</p>
 
 
 A **DC motor** converts electrical energy into mechanical rotation.
@@ -138,6 +140,8 @@ This project is structured **step-by-step**, from **basic motor ON/OFF** to **sm
 ## 🔹 Code Flow (Learning Order):
 
 ### 1️⃣ Single Motor (Basic)
+
+<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%203/image/ESP8266-DC-Motor_bb.png.webp" width="500">
 
 **Goal:** Understand motor direction
 
