@@ -1,3 +1,5 @@
+//  This is code for controlling single motor in station mode means esp8266 is connected with wifi.
+
 #include <ESP8266WiFi.h>
 
 const char* ssid = "realme 12x 5G";
