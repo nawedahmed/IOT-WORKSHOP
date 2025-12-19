@@ -109,14 +109,15 @@ This is the sequence of code that we will teach.
 
 ## 🚗  DC Motor Control – ESP8266 + L298N :
 
-### 🔹 Short Theory (Minimal but Solid)
+<img src="" width="400">
+
 
 A **DC motor** converts electrical energy into mechanical rotation.
 The **L298N motor driver** allows a low-power microcontroller (ESP8266) to control a high-current motor safely.
 
 **Key concepts used:**
 
-* **Direction control** → using IN1 / IN2 pins
+* **Direction control** → using IN1 / IN2 and IN3 / IN4 pins
 * **Speed control** → using PWM on EN pin
 * **Wi-Fi control** → ESP8266 in AP mode & Internet mode
 * **Human interface** → Buttons, Joystick, Voice (Blynk IoT)
@@ -125,7 +126,7 @@ This project is structured **step-by-step**, from **basic motor ON/OFF** to **sm
 
 
 
-## 🔹 Code Flow (Learning Order)
+## 🔹 Code Flow (Learning Order):
 
 ### 1️⃣ Single Motor (Basic)
 
@@ -175,12 +176,12 @@ This project is structured **step-by-step**, from **basic motor ON/OFF** to **sm
 
 
 
-### 5️⃣ Blynk IoT (Voice / Internet Control)
+### 5️⃣ Blynk IoT (Internet Control)
 
 **Goal:** Full IoT control
 
 * Control motor from **anywhere**
-* Button / Slider / Voice (Google Assistant via Blynk)
+* Button / Slider / ( via Blynk)
 * Internet-based operation
 
 
