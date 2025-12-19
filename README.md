@@ -120,7 +120,7 @@ The **L298N motor driver** allows a low-power microcontroller (ESP8266) to contr
 * **Direction control** → using IN1 / IN2 and IN3 / IN4 pins
 * **Speed control** → using PWM on EN pin
 * **Wi-Fi control** → ESP8266 in AP mode & Internet mode
-* **Human interface** → Buttons, Joystick, Voice (Blynk IoT)
+* **Human interface** → Buttons, Joystick, Blynk IoT APP
 
 This project is structured **step-by-step**, from **basic motor ON/OFF** to **smart IoT voice control**, so learners understand *how control complexity increases*.
 
@@ -184,7 +184,7 @@ This project is structured **step-by-step**, from **basic motor ON/OFF** to **sm
 * Button / Slider / ( via Blynk)
 * Internet-based operation
 
-
+## The end of Third Day .
 
 
  ---
