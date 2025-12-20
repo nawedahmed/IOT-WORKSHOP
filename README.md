@@ -388,7 +388,7 @@ This station demonstrates how the ESP8266 can **control high-power electrical de
 
 <p align="Center">
 <img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/Station%204/Image/relay.jpg" width="500">
-<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/Station%204/Image/relay.jpg" width="500">
+<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/Station%204/Image/Relay-Pinout.png" width="500">
 </p
 >
 ### What it does
