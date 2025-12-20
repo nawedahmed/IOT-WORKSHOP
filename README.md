@@ -141,7 +141,7 @@ This project is structured **step-by-step**, from **basic motor ON/OFF** to **sm
 
 ### 1️⃣ Single Motor (Basic)
 
-<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%203/image/ESP8266-DC-Motor_bb.png.webp" width="500">
+<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/Station%202/image/ESP8266-DC-Motor_bb.png.webp" width="500">
 
 **Goal:** Understand motor direction
 
