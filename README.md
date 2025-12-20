@@ -67,35 +67,35 @@ This is the sequence of code that we will teach.
 ### `wifi_scanning.ino`
 
 
-  ![Wifi scan image](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/wifi_scan.png)
+  ![Wifi scan image](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%201/ESP8266_WiFi_Basic/images/wifi_scan.png)
 
 
 ### `wifi_station_mode.ino`
 
-![Esp connected to wifi](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/espConnectedToWifi.png)
+![Esp connected to wifi](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%201/ESP8266_WiFi_Basic/images/espConnectedToWifi.png)
 
 ### `wifi_AP_Mode.ino`
 
-![Esp providing network](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/wifi_AP.png)
+![Esp providing network](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%201/ESP8266_WiFi_Basic/images/wifi_AP.png)
 
 ### `Both_STA_AP_Mode.ino`
 
-![Both Mode LED On/Off](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/Both_Mode.png)
+![Both Mode LED On/Off](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%201/ESP8266_WiFi_Basic/images/Both_Mode.png)
 
 
 
 ### `welcome_code.ino`
 
-![Welcome text](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/welcome.png)
+![Welcome text](https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%201/ESP8266_WiFi_Basic/images/welcome.png)
 
 ### `coffeeMachine_APMode.ino`
  
  In sequence from connecting to esp ->  dashboard login -> On/Off page for controlling
 <p align="Center">
- <img src ="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/coffeeMachine1.jpg" width="200">
+ <img src ="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%201/ESP8266_WiFi_Basic/images/coffeeMachine1.jpg" width="200">
  <img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/coffMachine2.jpg" width="200">
-<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/coffMachine3.jpg" width ="200">
- <img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/ESP8266_WiFi_Basic/images/coffMachine4.jpg" width="200">
+<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%201/ESP8266_WiFi_Basic/images/coffMachine3.jpg" width ="200">
+ <img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%201/ESP8266_WiFi_Basic/images/coffMachine4.jpg" width="200">
 
  </p>
  
@@ -109,8 +109,8 @@ This is the sequence of code that we will teach.
 
 ## 🚗  DC Motor Control – ESP8266 + L298N :
 <p align="Center">
-<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%203/image/L298N.webp" width="500">
-<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/DAY%203/image/L298NwithChip.webp" width="500">
+<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/Station%202/image/L298N.webp" width="500">
+<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/Station%202/image/L298NwithChip.webp" width="500">
 </p>
 
 
