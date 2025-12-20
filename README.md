@@ -206,7 +206,10 @@ The buzzer provides **instant audio feedback** when a critical event occurs, suc
 
 This teaches students how **sensor conditions trigger output actions**.
 
- ---
+## The end of Station 2 .
+
+---
+
 
 ---
 
@@ -306,6 +309,25 @@ This project is structured **step-by-step**, from **basic motor ON/OFF** to **sm
 
 
  ---
+- ----------------------------------------------------------------------------------------------------------
+ ---
+ 
+ # Station 3
+
+
+
+## The end of Station 2 .
+---
+
+---
+ 
+# Station 4
+
+
+
+## The end of Station 4 .
+---
+
 
 
 
