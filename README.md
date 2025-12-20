@@ -322,6 +322,8 @@ This station introduces students to **motor control concepts** using the ESP8266
 
 ## 1️⃣ Servo Motor – Angle Control
 
+<img src="" width="500">
+
 ### What it does
 
 A **servo motor** rotates to a **specific angle** instead of spinning continuously.
@@ -345,6 +347,8 @@ Servos are commonly used in **robot arms, camera mounts, and steering systems**.
 
 
 ## 2️⃣ BLDC Motor + ESC – Speed Control
+
+<img src="" width="500">
 
 ### What it does
 
@@ -382,6 +386,11 @@ This station demonstrates how the ESP8266 can **control high-power electrical de
 
 ## 1️⃣ Relay Module – Electrical Isolation
 
+<p align="Center">
+<img src="" width="500">
+<img src="" width="500">
+</p
+>
 ### What it does
 
 A **relay** is an electrically controlled switch that allows a **low-voltage signal** to control a **high-voltage load**.
