@@ -106,15 +106,7 @@ This is the sequence of code that we will teach.
 
  ---
 
- # Station 1
-
- Got it 👍
-Below is the **FINAL, complete theory for Station 1**, written **short, clear, and beginner-friendly**, suitable for **README** and **first-time microcontroller students**.
-You can paste this **directly**.
-
----
-
-# 📡 Station 1: Sensors & Indicators (Final Theory)
+# Station 1
 
 ### Objective
 
