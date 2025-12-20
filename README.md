@@ -106,7 +106,7 @@ This is the sequence of code that we will teach.
 
  ---
 
-# Station 1
+# Station 1 : 
 
 ### Objective
 
@@ -213,9 +213,8 @@ This teaches students how **sensor conditions trigger output actions**.
 
 ---
 
-# Station 2
+# Station 2: 🚗  DC Motor Control – ESP8266 + L298N :
 
-## 🚗  DC Motor Control – ESP8266 + L298N :
 <p align="Center">
 <img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/Station%202/image/L298N.webp" width="500">
 <img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/Station%202/image/L298NwithChip.webp" width="500">
@@ -310,20 +309,109 @@ This project is structured **step-by-step**, from **basic motor ON/OFF** to **sm
 
  ---
 - ----------------------------------------------------------------------------------------------------------
- ---
- 
- # Station 3
-
-
-
-## The end of Station 2 .
 ---
 
+
+# ⚙️ Station 3: Servo Motor & BLDC Motor (Theory)
+
+### Objective
+
+This station introduces students to **motor control concepts** using the ESP8266. Students learn the difference between **position control (servo)** and **speed control (BLDC)**, along with **safety-critical programming**.
+
+
+
+## 1️⃣ Servo Motor – Angle Control
+
+### What it does
+
+A **servo motor** rotates to a **specific angle** instead of spinning continuously.
+
+### Working Principle
+
+* Controlled using a **PWM signal**
+* Pulse width determines the angle
+* Typical range: **0° to 180°**
+
+### Learning Concept
+
+Students learn:
+
+* PWM-based control
+* Mapping values to angles
+* Precise position control
+
+Servos are commonly used in **robot arms, camera mounts, and steering systems**.
+
+
+
+## 2️⃣ BLDC Motor + ESC – Speed Control
+
+### What it does
+
+A **BLDC motor** provides **high-speed and high-efficiency rotation**.
+It cannot be driven directly by ESP8266, so an **ESC (Electronic Speed Controller)** is used.
+
+### Working Principle
+
+* ESP8266 sends **PWM throttle signal** to ESC
+* ESC powers and controls the BLDC motor
+* Throttle value determines motor speed
+
+### Safety Concepts
+
+* ESC must be **armed before operation**
+* Motor starts at **low throttle**
+* Emergency stop logic is implemented
+
+BLDC motors are widely used in **drones, fans, and electric vehicles**.
+
+## The end of Station 3 .
+---
+
+
 ---
  
-# Station 4
 
 
+# 🔌 Station 4: Relay & Bulb Control (Theory)
+
+### Objective
+
+This station demonstrates how the ESP8266 can **control high-power electrical devices** using a **relay**, while maintaining electrical safety.
+
+
+## 1️⃣ Relay Module – Electrical Isolation
+
+### What it does
+
+A **relay** is an electrically controlled switch that allows a **low-voltage signal** to control a **high-voltage load**.
+
+### Working Principle
+
+* ESP8266 controls relay using a **digital pin**
+* Relay internally switches AC or high-power DC
+* Provides **electrical isolation** between control and load
+
+### Relay Logic
+
+* Some relays are **ACTIVE LOW**
+* Some are **ACTIVE HIGH**
+
+Understanding this is critical for correct operation.
+
+
+
+## 2️⃣ Bulb Control – Real-World Output
+
+### How it works
+
+* Bulb is connected to AC through the relay
+* ESP8266 turns relay ON/OFF
+* Bulb responds instantly
+
+⚠️ **Safety Rule:**
+All AC wiring is **pre-wired by the instructor**.
+Students **never touch high-voltage connections**.
 
 ## The end of Station 4 .
 ---
