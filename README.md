@@ -322,7 +322,7 @@ This station introduces students to **motor control concepts** using the ESP8266
 
 ## 1️⃣ Servo Motor – Angle Control
 
-<img src="" width="500">
+<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/Station%203/Image/servo-motor.webp" width="500">
 
 ### What it does
 
@@ -348,7 +348,7 @@ Servos are commonly used in **robot arms, camera mounts, and steering systems**.
 
 ## 2️⃣ BLDC Motor + ESC – Speed Control
 
-<img src="" width="500">
+<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/Station%203/Image/bldc_ESC.webp" width="500">
 
 ### What it does
 
@@ -387,8 +387,8 @@ This station demonstrates how the ESP8266 can **control high-power electrical de
 ## 1️⃣ Relay Module – Electrical Isolation
 
 <p align="Center">
-<img src="" width="500">
-<img src="" width="500">
+<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/Station%204/Image/relay.jpg" width="500">
+<img src="https://github.com/nawedahmed/IOT-WORKSHOP/blob/main/Station%204/Image/relay.jpg" width="500">
 </p
 >
 ### What it does
