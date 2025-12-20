@@ -104,8 +104,121 @@ This is the sequence of code that we will teach.
 
  ---
 
+ ---
+
+ # Station 1
+
+ Got it 👍
+Below is the **FINAL, complete theory for Station 1**, written **short, clear, and beginner-friendly**, suitable for **README** and **first-time microcontroller students**.
+You can paste this **directly**.
+
+---
+
+# 📡 Station 1: Sensors & Indicators (Final Theory)
+
+### Objective
+
+Station 1 introduces students to how the **ESP8266 senses the environment** and responds using **LEDs and a buzzer**. Students learn how **physical changes (distance, movement, light interruption)** are converted into **electrical signals** and processed using **simple program logic**.
 
 
+
+## 1️⃣ Ultrasonic Sensor (HC-SR04) – Distance Measurement
+
+### Working Principle
+
+The HC-SR04 measures distance using **ultrasonic sound waves**.
+
+1. ESP8266 sends a short pulse to the **TRIG** pin
+2. The sensor emits ultrasonic waves
+3. Waves reflect from an object
+4. The **ECHO** pin stays HIGH for a duration proportional to distance
+
+Distance is calculated using:
+
+```
+Distance = (Time × Speed of Sound) / 2
+```
+
+---
+
+### Distance-Based LED Indication
+
+Five LEDs visually represent object distance.
+
+| Distance | LED Status |
+| -------- | ---------- |
+| ≤ 5 cm   | LED 1 ON   |
+| ≤ 10 cm  | LED 2 ON   |
+| ≤ 15 cm  | LED 3 ON   |
+| ≤ 20 cm  | LED 4 ON   |
+| > 20 cm  | LED 5 ON   |
+
+This mimics **real-world proximity indicators** such as parking sensors.
+
+
+
+## 2️⃣ Joystick Module – Analog Position Control
+
+### Description
+
+A joystick contains **two potentiometers**:
+
+* **X-axis** → left / right
+* **Y-axis** → up / down
+
+### ESP8266 Reading
+
+* Connected to **A0 (analog pin)**
+* Value range: **0–1023**
+
+### Learning Concept
+
+Students learn:
+
+* How **analog inputs** work
+* Continuous control instead of ON/OFF
+* Mapping physical movement to digital values
+
+This concept is later used in **robot control and motor speed regulation**.
+
+
+
+## 3️⃣ Laser + LDR Tripwire with Buzzer
+
+### Working Principle
+
+* A **laser module** continuously shines on an **LDR (Light Dependent Resistor)**
+* The LDR is connected using a **voltage divider** and read via **A0**
+* When the laser beam is **blocked**:
+
+  * Light intensity drops
+  * Analog value crosses a **threshold**
+  * ESP8266 detects the interruption
+  * **Buzzer turns ON**
+* When the beam is restored:
+
+  * **Buzzer turns OFF**
+
+This setup acts as a **light-based tripwire system**.
+
+
+
+## 🔔 Buzzer – Alert Output
+
+### Purpose
+
+The buzzer provides **instant audio feedback** when a critical event occurs, such as:
+
+* Object approaching too close
+* Laser beam interruption
+
+This teaches students how **sensor conditions trigger output actions**.
+
+ ---
+
+---
+
+# Station 2
 
 ## 🚗  DC Motor Control – ESP8266 + L298N :
 <p align="Center">
