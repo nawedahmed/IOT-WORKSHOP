@@ -11,9 +11,9 @@ IoT workshop projects using ESP8266 WiFi module for sensor monitoring and WiFi-b
 ### for Blynk, we will add it on ( Day 3 )  so for now skip it.
 ---
 1. Blynk Library (v1.0.1)
-🔹 Go to Arduino IDE → Sketch → Include Library → Manage Libraries
-🔹 Search for: Blynk
-🔹 Install the one by Volodymyr Shymanskyy (NOT Blynk IoT or Blynk.Edgent – just "Blynk").
+- 🔹 Go to Arduino IDE → Sketch → Include Library → Manage Libraries
+- 🔹 Search for: Blynk
+- 🔹 Install the one by Volodymyr Shymanskyy (NOT Blynk IoT or Blynk.Edgent – just "Blynk").
 ---
 
 
