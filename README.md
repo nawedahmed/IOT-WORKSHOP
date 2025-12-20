@@ -8,7 +8,7 @@ IoT workshop projects using ESP8266 WiFi module for sensor monitoring and WiFi-b
 
 ## ✅ Required Libraries:
 
-### for Blynk, we will add it on ( Day 3 )  so for now skip it.
+### for Blynk, we will add it on ( Day 2 )  so for now skip it.
 ---
 1. Blynk Library (v1.0.1)
 - 🔹 Go to Arduino IDE → Sketch → Include Library → Manage Libraries
@@ -197,7 +197,7 @@ This project is structured **step-by-step**, from **basic motor ON/OFF** to **sm
 * Button / Slider / ( via Blynk)
 * Internet-based operation
 
-## The end of Third Day .
+## The end of Station 2 .
 
 
  ---
