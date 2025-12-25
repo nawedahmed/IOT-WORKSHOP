@@ -9,7 +9,10 @@ void setup() {
 
   Serial.println("Scanning WiFi networks...");
   
-  int n = WiFi.scanNetworks();
+
+}
+void loop(){
+    int n = WiFi.scanNetworks();
 
   if (n == 0) {
     Serial.println("No networks found");
@@ -25,10 +28,10 @@ void setup() {
       Serial.println(
         (WiFi.encryptionType(i) == ENC_TYPE_NONE) ? "Open" : "Secured"
       );
-      delay(10);
+      delay(5000);
     }
   }
 }
 
-void loop() {
-}
+
+
