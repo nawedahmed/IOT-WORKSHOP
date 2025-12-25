@@ -21,6 +21,7 @@ Wifi.status() -> return the following i.e in status column and its meaning
 
 */
 
+
 #include <ESP8266WiFi.h>
 
 const char* ssid = "realme 12x 5G";
@@ -34,19 +35,32 @@ void setup() {
 
   Serial.print("Connecting");
 
-  while (WiFi.status() != WL_CONNECTED) {
+  unsigned long startTime = millis();   // ✅ added
+
+  while (WiFi.status() != WL_CONNECTED && millis() - startTime < 15000) {
     delay(500);
     Serial.print(".");
   }
 
-  Serial.println("\nConnected to WiFi!: ");
-  Serial.println(ssid);
-  Serial.print("IP Address: ");
-  Serial.println(WiFi.localIP());
-  Serial.print("Signal Strength (RSSI): ");
-  Serial.print(WiFi.RSSI());
-  Serial.println(" dBm");
+  if (WiFi.status() == WL_CONNECTED) {
+    Serial.println("\nConnected to WiFi!");
+    Serial.println(ssid);
+    Serial.print("IP Address: ");
+    Serial.println(WiFi.localIP());
+    Serial.print("Signal Strength (RSSI): ");
+    Serial.print(WiFi.RSSI());
+    Serial.println(" dBm");
+  } else {
+    Serial.println("\nWiFi connection failed!");
+  }
 }
 
 void loop() {
 }
+
+
+
+
+
+
+
