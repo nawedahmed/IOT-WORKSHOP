@@ -35,7 +35,7 @@ void setup() {
     server.on("/", []() {
       server.send(200, "text/html",
         "<html><body style='text-align:center;'>"
-        "<h1>Welcome to IoT Workshop<br>Electrical Club, Pulchowk Campus</h1>"
+        "<h1><br><br>Welcome to IoT Workshop<br>Electrical Club, Pulchowk Campus</h1>"
         "</body></html>"
       );
     });
