@@ -1,8 +1,7 @@
 /* 
  
-Just to show what can we do with in range with esp32 and control it gpio pin and control like a switch and practical application of AP mode. 
-AS i also added the password while connecting to esp8266 and again login page to control to show what we more explore through it for our project.
-
+This project shows how an ESP32 works in AP mode to control GPIO pins like a switch within Wi-Fi range.
+The device creates its own secured network with a password and a login page, demonstrating practical, secure, and local control for real-world IoT applications.
 */
 
 
